@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="space_age">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/space_age.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

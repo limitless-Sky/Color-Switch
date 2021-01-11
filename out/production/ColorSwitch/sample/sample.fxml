@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="rootPane" prefWidth="365.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <AnchorPane>
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@alex-perez-ioJBsYQ-pPM-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="Title" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="67.0" layoutY="42.0" text="COLOR SWITCH" textAlignment="JUSTIFY" textFill="#facb11">
+               <font>
+                  <Font name="Source Code Pro Black" size="35.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Button fx:id="button2" layoutX="102.0" layoutY="465.0" mnemonicParsing="false" onAction="#resumeGame" prefHeight="65.0" prefWidth="154.0" text="SAVED GAMES" textFill="#fa580f">
+               <font>
+                  <Font name="Inconsolata Condensed ExtraBold" size="24.0" />
+               </font></Button>
+            <Button fx:id="button3" cancelButton="true" layoutX="102.0" layoutY="549.0" mnemonicParsing="false" onAction="#cls" prefHeight="65.0" prefWidth="154.0" text="Exit" textFill="#fa580f">
+               <font>
+                  <Font name="Inconsolata Expanded ExtraBold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1" layoutX="102.0" layoutY="383.0" mnemonicParsing="false" onAction="#loadScreen" prefHeight="65.0" prefWidth="154.0" text="START" textFill="#fa580f">
+               <font>
+                  <Font name="Inconsolata Expanded ExtraBold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

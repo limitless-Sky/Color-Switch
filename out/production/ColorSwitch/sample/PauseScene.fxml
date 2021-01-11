@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="PsFrame" prefHeight="640.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PauseContoller">
+   <children>
+      <ImageView fitHeight="729.0" fitWidth="365.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@endScreen.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="newButoon" layoutX="118.0" layoutY="453.0" mnemonicParsing="false" onAction="#resumeFunc" prefHeight="63.0" prefWidth="130.0" stylesheets="@Front.css" text="Resume" textFill="#2189ab">
+         <font>
+            <Font name="Inconsolata Expanded Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitButton" layoutX="120.0" layoutY="531.0" mnemonicParsing="false" onAction="#quitFunc" prefHeight="63.0" prefWidth="130.0" text="Quit" textFill="#2189ab">
+         <font>
+            <Font name="Inconsolata Expanded Bold" size="26.0" />
+         </font>
+      </Button>
+      <Label fx:id="myLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="109.0" prefHeight="243.0" prefWidth="232.0" style="-fx-background-color: WHITE; -fx-background-radius: 140;" text="0" textFill="#2189ab">
+         <font>
+            <Font name="Inconsolata Expanded Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="myHighScoreLabel" alignment="CENTER" layoutX="15.0" layoutY="53.0" prefHeight="33.0" prefWidth="340.0" text="High Score: " textFill="WHITE">
+         <font>
+            <Font name="Inconsolata Expanded Bold" size="21.0" />
+         </font></Label>
+      <Button fx:id="newButoon1" layoutX="118.0" layoutY="372.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="63.0" prefWidth="130.0" stylesheets="@Front.css" text="Main Menu" textFill="#2189ab">
+         <font>
+            <Font name="Inconsolata Expanded Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
