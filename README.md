@@ -1,5 +1,5 @@
 # Color-Switch using JavaFx
->[`Contributors:`]((/ColorSwitch.pdf))
+>[`Contributors:`](/ColorSwitch.pdf)
 - [Nikhil Kushwah](https://github.com/limitless-sky)
 - [Shubham Lohan](https://github.com/lohan-shubham)
 
