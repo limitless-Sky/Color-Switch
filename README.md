@@ -1,7 +1,7 @@
 # Color-Switch using JavaFx
 >[`Contributors:`](/ColorSwitch.pdf)
 - [Nikhil Kushwah](https://github.com/limitless-sky)
-- [Shubham Lohan](https://github.com/lohan-shubham)
+- [Shubham Lohan](https://github.com/shubham-lohan)
 
 >`Purpose:` Course Project at [IIITD](https://www.iiitd.ac.in/)
 
